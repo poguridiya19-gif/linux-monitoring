@@ -9,4 +9,3 @@ else
    echo "$SERVICE is NOT running"
 fi
 
-echo "-------------------------" 
