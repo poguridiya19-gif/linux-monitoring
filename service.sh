@@ -4,7 +4,7 @@ SERVICE="NGINX"
 
 echo "=====Service Status====="
 
-if systemctl is-active --quiet $SERVICE"
+if systemctl is-active --quiet $SERVICE
 
 then
 
@@ -13,5 +13,5 @@ then
 else
 
    echo "$SERVICE is NOT running"
-   
+
 fi
