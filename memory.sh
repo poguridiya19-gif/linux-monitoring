@@ -1,4 +1,4 @@
 #!/bin/bash
-echo "=====memoryusage====="
+echo "=====memoryusage=====" 
 free -h
 echo "================"
