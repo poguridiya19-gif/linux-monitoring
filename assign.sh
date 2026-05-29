@@ -23,6 +23,12 @@ if [ -e "$PATH_NAME" ]; then
        echo "writable: no"
     fi
 
+    if [ -d "$PATH_NAME" ]; then
+       echo ""
+       echo "Directory Contents:"
+       ls -l "$PATH_NAME"
+    fi
+
 else
     echo "file or directory does NOT exist."
 fi
